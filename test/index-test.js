@@ -36,7 +36,7 @@ describe("longPlaneteerCalls", function() {
 
 describe("findTheCheese", function() {
       it("returns the first element of the array that is cheese", function() {
-        var cheddarCheese = ["banana", "cheddar", "sock"];
+        var cheddarCheese = ["banana", "cheddar", "sock", "gouda"];
         expect(findTheCheese(cheddarCheese)).toEqual("cheddar");
       });
 
