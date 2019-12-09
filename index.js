@@ -12,11 +12,16 @@ function summonCaptainPlanet(planeteerCalls){
 let newArray = []
 for (let i = 0; i < planeteerCalls.length; i++){
   newArray.push(planeteerCalls[i].toUpperCase()+"!")
+<<<<<<< HEAD
 }
 return newArray
 
+=======
+>>>>>>> 819cc1bed651a935ebff60956bc5e74d120bf2a8
 }
+return newArray
 
+<<<<<<< HEAD
 function longPlaneteerCalls(words) {
   for (let i = 0; i < words.length; i++){
     if (words[i].length > 4){
@@ -36,4 +41,14 @@ let cheeses = ["gouda", "cheddar"]
     }
   }
   return "no cheese!"
+=======
+}
+
+function longPlaneteerCalls(words) {
+
+}
+
+function findTheCheese (foods) {
+
+>>>>>>> 819cc1bed651a935ebff60956bc5e74d120bf2a8
 }
